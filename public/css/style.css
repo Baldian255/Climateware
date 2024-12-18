@@ -1,0 +1,147 @@
+
+/* Background image*/
+.hero-section {
+    background-image: url('https://plus.unsplash.com/premium_photo-1675127366598-f6c344e5233b?q=80&w=2232&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding: 100px 0; /* Adjust the padding*/
+}
+
+.card-img-top {
+    height: 200px;  /* Menentukan tinggi gambar yang konsisten */
+    object-fit: cover;  /* Memastikan gambar tetap ter-crop dengan baik dan memenuhi area */
+}
+
+
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    padding: 100px 0; /* Match the padding of the hero section */
+}
+
+/* Mengatur font keluarga dan latar belakang halaman */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+    color: #333;
+}
+
+/* Pengaturan untuk Navbar */
+.navbar {
+    background-color: #00796b;
+}
+
+.navbar .nav-link {
+    color: #000000 !important;
+}
+
+.navbar .nav-link:hover {
+    color: #80cbc4 !important;
+}
+
+/* Pengaturan untuk Card */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Pengaturan untuk Footer */
+footer {
+    background-color: #004d40;
+    color: #000000;
+}
+
+footer a {
+    color: #80cbc4;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Custom styling for the button */
+.hero-btn {
+    background-color: #00796b; /* Dark green background */
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.hero-btn:hover {
+    transform: scale(1.1); /* Grow the button */
+    background-color: #004d40; /* Darker green on hover */
+}
+
+/* Design untuk Card */
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan lembut */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efek hover untuk card */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Bayangan lebih tajam saat hover */
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #00796b; /* Warna hijau gelap */
+}
+
+.card-text {
+    color: #555; /* Warna teks lebih soft */
+}
+
+.card-footer {
+    background-color: #f1f1f1;
+    text-align: right;
+    padding-top: 10px;
+}
+
+/* Design untuk Button */
+.btn {
+    background-color: #00796b; /* Warna hijau untuk button */
+    border-radius: 25px; /* Sudut bulat untuk tombol */
+    padding: 10px 20px; /* Padding untuk tombol */
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    transition: background-color 0.3s, transform 0.3s ease;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #004d40; /* Warna lebih gelap saat hover */
+    transform: translateY(-3px); /* Efek sedikit mengangkat tombol saat hover */
+}
+
+/* Button untuk Read More */
+.btn-sm {
+    background-color: #80cbc4; /* Warna lebih terang untuk tombol kecil */
+    color: #004d40;
+    padding: 8px 16px;
+}
+
+.btn-sm:hover {
+    background-color: #004d40;
+    color: #ffffff;
+}
